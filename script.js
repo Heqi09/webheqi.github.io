@@ -1,5 +1,5 @@
 function getData() {
-  const data = fetch('./data.json').then(res => res.json())
+  const data = fetch('./Data.json').then(res => res.json())
   return data
 }
 
